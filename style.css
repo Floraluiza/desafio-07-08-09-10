@@ -1,0 +1,133 @@
+body{
+        background-image: linear-gradient(to left, 
+        white,rgb(110, 110, 201));
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+       
+      }
+
+p{
+  font-size: 20px;
+  background-color: white;
+  margin: auto;
+  padding: 10px;
+}
+
+.parsec{
+  font-size: 20px;
+  color: #09161F;
+  background-color: #90f3ff;
+}
+
+#titulo{
+  color:blueviolet;
+}
+
+div{
+  width: 400px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 40%;
+  padding-bottom: 30px;
+}
+
+ul{
+  list-style-type: none; /*tirar os pontinhos da lista*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /*comportamento ao passar mouse por cima*/
+  background-color: #333;
+
+}
+
+li{
+  float: left; //agrupa os links do menu em horizontal
+}
+
+li a{ //barra de menu com a tag a
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; //tira o sublinhado
+
+}
+
+li a:hover:not(.ativa) {
+  background-color: black;
+}
+
+.ativa{
+  background-color: blue;
+}
+
+.menu{
+list-style:none;
+border:1px solid #c0c0c0;
+float:left;
+}
+
+.menu li{
+position:relative;
+float:left;
+border-right:1px solid #c0c0c0;
+}
+
+.menu li a{
+  text-decoration:none; 
+  padding:5px 10px; 
+  display:block;}
+
+.menu li a:hover{
+background:#333;
+color:#fff;
+-moz-box-shadow:0 3px 10px 0 #CCC;
+-webkit-box-shadow:0 3px 10px 0 #ccc;
+text-shadow:0px 0px 5px #fff;
+}
+
+.menu li  ul{
+/*position: relative;*/
+top:25px;
+left:0;
+/*background-color:#fff;*/
+display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+
+.menu li ul li{
+border:1px solid #c0c0c0;
+display:block;
+width:150px;
+}
+
+div.gallery{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float:left;
+  width: 180px;
+}
+
+div.gallery:hover{
+  border: 1px solid rgb(52, 18, 117);
+}
+
+div.gallery img{
+  width: 100%;
+  height: auto;
+}
+
+div.desc{
+  padding: 0px;
+  text-align: center;
+}
